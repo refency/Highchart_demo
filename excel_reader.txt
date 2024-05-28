@@ -1,0 +1,34 @@
+
+        private void excel_reader() {
+            // Load Excel file
+            Workbook wb = new Workbook(@"../../parameters.xlsx");
+
+            // Get all worksheets
+            WorksheetCollection collection = wb.Worksheets;
+
+            // Loop through all the worksheets
+            for (int worksheetIndex = 0; worksheetIndex < collection.Count; worksheetIndex++)
+            {
+                // Get worksheet using its index
+                Worksheet worksheet = collection[worksheetIndex];
+
+                // Print worksheet name
+                Console.WriteLine("Worksheet: " + worksheet.Name);
+
+                // Get number of rows and columns
+                int rows = worksheet.Cells.MaxDataRow;
+                int cols = worksheet.Cells.MaxDataColumn;
+
+                // Loop through rows
+                for (int i = 0; i <= rows; i++) // Начинаю перебор со второго значения, поскольку в первом лежит имя столбца
+                {
+                    for (int j = 0; j <= cols; j++)
+                    {
+                        // Print cell value
+                        Console.Write(worksheet.Cells[i, j].Value + " | ");
+                    }
+                    // Print line break
+                    Console.WriteLine(" ");
+                }
+            }
+        }

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Aspose.Cells</id>
+    <version>24.4.0</version>
+    <title>Aspose.Cells for .NET</title>
+    <authors>Aspose</authors>
+    <owners>Aspose</owners>
+    <licenseUrl>https://www.nuget.org/packages/Aspose.Cells/24.4.0/license</licenseUrl>
+    <projectUrl>https://products.aspose.com/cells/net</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/aspose.cells/24.4.0/icon</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A powerful and fast library written in C# for manipulating and converting Excel(XLS, XLSX,XLSB), ODS, CSV,JSON and HTML files.</description>
+    <summary />
+    <releaseNotes>https://releases.aspose.com/cells/net/release-notes/2024/aspose-cells-for-net-24-4-release-notes/</releaseNotes>
+    <copyright>© Aspose Pty Ltd 2001-2024. All Rights Reserved.</copyright>
+    <tags>Excel XLS XLSX XLSB CSV to PDF JPG PNG HTML ODS Numbers XLSM OOXML Spreadsheet Markdown XPS DOCX PPTX MHTML JSON SVG TIFF</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.0-Client" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Drawing.Common" version="5.0.3" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="5.0.1" />
+      </group>
+      <group targetFramework=".NETFramework6.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="6.0.3" />
+        <dependency id="SkiaSharp" version="2.88.6" />
+      </group>
+      <group targetFramework=".NETFramework6.0-windows7.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="6.0.3" />
+        <dependency id="System.Drawing.Common" version="6.0.0" />
+      </group>
+      <group targetFramework=".NETFramework7.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="6.0.3" />
+        <dependency id="SkiaSharp" version="2.88.6" />
+      </group>
+      <group targetFramework=".NETFramework7.0-windows7.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="6.0.3" />
+        <dependency id="System.Drawing.Common" version="6.0.0" />
+      </group>
+      <group targetFramework=".NETFramework8.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="6.0.3" />
+        <dependency id="SkiaSharp" version="2.88.6" />
+      </group>
+      <group targetFramework=".NETFramework8.0-windows7.0">
+        <dependency id="System.Text.Encoding.CodePages" version="4.7.0" />
+        <dependency id="System.Security.Cryptography.Pkcs" version="6.0.3" />
+        <dependency id="System.Drawing.Common" version="6.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
